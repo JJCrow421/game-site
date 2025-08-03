@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    .video-section {
+      position: relative;
+      text-align: center;
+      background: #111;
+      padding: 40px;
+    }
+    .video-section video {
+      width: 80%;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+    .video-section h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 3em;
+      font-weight: bold;
+      pointer-events: none;
+    }
+    .latest-games {
+      background: #ccc;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .latest-games h3 {
+      font-size: 2em;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Game Company</h1>
+  </header>
+
+  <section class="video-section">
+    <video autoplay muted loop playsinline>
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h2>ITS IN THE GAME</h2>
+  </section>
+
+  <section class="latest-games">
+    <h3>Latest Games</h3>
+  </section>
+</body>
+</html>
